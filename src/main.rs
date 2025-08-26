@@ -69,8 +69,8 @@ async fn get_purchasing() -> bool {
 }
 
 pub async fn send_telegram_message(message: &str) -> Result<(), Box<dyn Error>> {
-    let token = "8187100966:AAEdVnzbcCjy0iXLqJqM_qWxksw4WvWoq_E";
-    let chat_id = "-1002507961697";
+    let token = "key";
+    let chat_id = "-id";
 
     let url = format!(
         "https://api.telegram.org/bot{}/sendMessage?chat_id={}&text={}",
